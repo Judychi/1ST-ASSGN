@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+body{
+    background-color: rgb(234, 241, 248);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color: rgb(184, 222, 255);
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(68, 67, 67);
+    border-radius: 5px;
+}
+
+a:hover, .terms a:hover{
+    background-color: aliceblue;
+    color: rgb(55, 0, 219);
+}
+
+main{
+    width: 70%;
+    padding: 5px;
+    color: rgb(70, 64, 64);
+    margin: auto;
+    border: 1px solid rgb(214, 210, 210);
+    border-radius: 5px;
+}
+
+h2{
+    margin: 10px;
+    text-align: center;
+}
+
+p{
+    line-height: 24px;
+}
+
+.topic, form{
+    text-align: left;
+    margin: 20px;
+    display: grid;
+}
+
+.topic p, form p{
+    font-size: 14px;
+    opacity: .7;
+    margin-top: 10px;
+}
+
+/*to remove the scroll in input type="number" */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+display: none;
+}
+
+span{
+    font-size: 12px;
+    color: red;
+    margin-left: 2px;
+}
+
+label{
+    margin-bottom: 5px;
+}
+
+input, select{
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(182, 174, 174);
+    background-color: white;
+}
+
+::placeholder {
+    opacity: .6;
+}
+
+input[type="submit"]{
+    background-color: rgb(79, 132, 255);
+    color: white;
+    font-size: 16px;
+}
+
+.terms a{
+    color: rgb(1, 51, 165);
+}
+
+form p{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+

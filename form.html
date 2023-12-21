@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Page</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        
+        <header>
+            <a href="./index.html">Home</a>
+            <a href="./form.html">Form</a>
+        </header>
+        <main>
+        <div class="topic">
+            <h3>Application Form</h3>
+            <p>Fill in your details</p>
+        </div>
+        <form action="">
+            <label for="userFirstName">First Name<span>*</span></label>
+            <input type="text" id="userFirstName" placeholder="Enter your First Name" required>
+
+            <label for="userLastName">Last Name<span>*</span></label>
+            <input type="text" id="userLastName" placeholder="Enter Last Name" required>
+
+            <label for="gender">Gender<span>*</span></label>
+            <input type="text" id="gender" name="gender" required placeholder="Select Gender">
+
+            <label for="birthDate">Date of Birth<span>*</span></label>
+            <input type="date" id="birthDate" placeholder="Enter your First Name" required>
+
+            <label for="email">Email Address<span>*</span></label>
+            <input type="email" id="email" placeholder="example@example.com">
+
+            <label for="status">Employment Status<span>*</span></label>
+            <select name="status" id="status" required>
+                <option value="" disabled selected hidden>Select employment status</option>
+                <option value="employed">Employed</option>
+                <option value="unemployed">Unemployed</option>
+                <option value="selfEmployed">Self Employed</option>
+            </select>
+
+            <label for="num">Email Address<span>*</span></label>
+            <input type="number" id="num" placeholder="08123456789" max="14">
+
+            <label for="school">Choose School<span>*</span></label>
+            <select name="school" id="school" required>
+                <option value="" disabled selected hidden>Select School</option>
+                <option value="engineer">School of Engineering</option>
+                <option value="data">School of Data</option>
+                <option value="product">School of Product</option>
+            </select>
+
+            <p class="terms">By clicking continue,  I agree to<a href="#">Terms of Use</a> and acknowledge that I have read the<a href="#">Privacy Policy.</a></p>
+
+            <input type="submit" value="Submit">
+
+        </form>
+    </main>
+    </div>
+</body>
+</html>
